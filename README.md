@@ -10,3 +10,12 @@ using last fm API to extract top tracks in a country or most listened songs in a
         ('format', 'json'),
     )
 ```
+## requirements:
+-python 3
+- "requests " liberary 
+```
+pip install requests
+```
+## preview
+[using the script to extratctop songs of phillip phillips](https://ibb.co/g10wO9)
+
