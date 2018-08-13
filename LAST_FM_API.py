@@ -3,7 +3,7 @@ def contry_music(text):
     params = (
         ('method', 'geo.gettoptracks'),
         ('country', text),
-        ('api_key', 'API_TOKEN'),#your last fm api goes here 
+        ('api_key', 'API_TOKEN_HERE'),#your last fm api goes here 
         ('format', 'json'),
     )
     response = requests.get('http://ws.audioscrobbler.com/2.0/', params=params)
@@ -13,7 +13,7 @@ def top_singer_songs(cher):
     params = (
         ('method', 'artist.gettoptracks'),
         ('artist', cher),
-        ('api_key', 'API_TOKEN'),
+        ('api_key', 'API_TOKEN_HERE'),
         ('format', 'json'),
     )
     response = requests.get('http://ws.audioscrobbler.com/2.0/', params=params).json().get("toptracks").get("track")
