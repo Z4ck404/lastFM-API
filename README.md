@@ -11,7 +11,7 @@ using last fm API to extract top tracks in a country or most listened songs in a
     )
 ```
 ## requirements:
--python 3
+- python 3
 - "requests " liberary 
 ```
 pip install requests
